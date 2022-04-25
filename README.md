@@ -1,16 +1,37 @@
-# bootcamp_aff_app
+# **Takım İsmi**
 
-A new Flutter project.
+ --Karar Verilecek--
 
-## Getting Started
+# Ürün İle İlgili Bilgiler
 
-This project is a starting point for a Flutter application.
+## Takım Elemanları
 
-A few resources to get you started if this is your first Flutter project:
+- Mert Yasin Bozkır: Product Owner
+- Duygu Nur Uylar: Scrum Master
+- Emre Kurtlar: Team Member/Developer
+- Hatice Zehra Türel: Team Member/Developer
+- Ayten Zeynep Akçınar: Team Member/Developer
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Ürün İsmi
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+--Karar Verilecek--
+
+## Ürün Açıklaması
+
+- Flutter ile geliştireceğimiz uygulamamız ile; kullanıcıların farklı kategorilerde yer alacak olumlamalar ile psikolojik sağlıklarının desteklenmesini sağlayacağız. Kullanıcılar uygulama içerisinden farklı kategoriler seçerek olumlamaları görüntüleyebilecekleri gibi, gün içerisinde alacakları bildirimlerle de anlık destek sahibi olacaklar.
+
+## Ürün Özellikleri
+
+- Farklı olumlama kategorileri
+- Kullanıcı tercihli özelleştirilmiş kategori listesi
+- Kullanıcı tercihli özelleştirilmiş olumlama bildirimleri
+- Kullanıcı tercihli özelleştirilmiş uygulama içi arkaplan sesleri
+- Özelleştirilmiş 'favori olumlamalar' listesi
+
+## Hedef Kitle
+
+- 15-65 yaş arası, olumlama desteğine ihtiyaç duyan kullanıcılar
+
+## Product Backlog URL
+
+ --Henüz Açılmadı--
