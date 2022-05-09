@@ -1,6 +1,6 @@
 # **Takım İsmi**
 
- --Karar Verilecek--
+ Team Nirvana
 
 # Ürün İle İlgili Bilgiler
 
@@ -14,7 +14,7 @@
 
 ## Ürün İsmi
 
---Karar Verilecek--
+Open Mind
 
 ## Ürün Açıklaması
 
@@ -50,11 +50,19 @@
 * Sprint Board Update
 #### Sprint 1 Board Update
 ![Sprint 1 Planning ](https://user-images.githubusercontent.com/98096192/167464402-61ca4720-502a-4fa4-822c-bcb21b504b36.png)
-![Sprint 1 Ending](https://user-images.githubusercontent.com/98096192/167464489-b3011bd3-a02b-4575-883f-b9ba5b6062b1.png)
+![Sprint 1 Ending 2](https://user-images.githubusercontent.com/98096192/167476278-99b5e960-2b71-42cf-b57e-94b6d716fcb3.png)
 
 #### Ürün Ekran Görüntüleri
 ![CategoryScreen_1](https://user-images.githubusercontent.com/98096192/167464612-cc06b061-39e6-42b0-b61d-c89c9f743025.png)
 ![CategoryScreen_2](https://user-images.githubusercontent.com/98096192/167464632-26ad4320-3d11-43f9-a16d-2ef34bd17741.png)
 
+#### Review Notları
+* İlk sprint kapsamında tasarlanması planlanan ürün sayfalarının hepsi tamamlanamadı ancak hazırlanmış olan sayfaların tasarımı ve yapısında bir eksik görülmemiştir.
+* Ürün renk paleti ve logo konusunda henüz net bir karara varılmamıştır.
+
+#### Retrospective Notları
+* Grup çalışmasında yaşanan adaptasyon problemlerinde Sprint 1'in ilk yarısı verimli geçirilememiştir. Bu sebepten ötürü Sprint Backlog için hedeflenen tasklar tamamlanamamıştır. Sprint 2'de bu problem çözülmüş olarak çalışmalara devam edilecektir.
+* Grup içinde takım üyeleri arasındaki iletişim veriminin arttırılması konusunda mutabık kalınmıştır.
+* Proje yönetiminin ve çalışma ortamlarının sistematiği konusunda verimli bir çalışma yapıldığı konusunda hemfikir olunmuştur.
 
 
