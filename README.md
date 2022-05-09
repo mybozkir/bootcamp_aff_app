@@ -47,7 +47,7 @@
 
 * Daily Scrum toplantılarının ekip üyelerinin yoğun programlarından ötürü, ekip asistanına danışılarak 3 günde bir yapılmasına karar verilmiştir. Daily Scrum toplantıları Slack üstünden yapılmakta ve daily scrum notları linkte iletilen drive dosyasında toplanmaktadır.[Daily Scrum Notları](https://docs.google.com/document/d/1syoeszSSqicyub0btI03D3r9DnMBk_ty/edit?usp=sharing&ouid=104325039060781909131&rtpof=true&sd=true)
 
-
+*
 
 
 
