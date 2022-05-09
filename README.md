@@ -47,8 +47,14 @@
 
 * Daily Scrum toplantılarının ekip üyelerinin yoğun programlarından ötürü, ekip asistanına danışılarak 3 günde bir yapılmasına karar verilmiştir. Daily Scrum toplantıları Slack üstünden yapılmakta ve daily scrum notları linkte iletilen drive dosyasında toplanmaktadır.[Daily Scrum Notları](https://docs.google.com/document/d/1syoeszSSqicyub0btI03D3r9DnMBk_ty/edit?usp=sharing&ouid=104325039060781909131&rtpof=true&sd=true)
 
-*
+* Sprint Board Update
+#### Sprint 1 Board Update
+![Sprint 1 Planning ](https://user-images.githubusercontent.com/98096192/167464402-61ca4720-502a-4fa4-822c-bcb21b504b36.png)
+![Sprint 1 Ending](https://user-images.githubusercontent.com/98096192/167464489-b3011bd3-a02b-4575-883f-b9ba5b6062b1.png)
 
+#### Ürün Ekran Görüntüleri
+![CategoryScreen_1](https://user-images.githubusercontent.com/98096192/167464612-cc06b061-39e6-42b0-b61d-c89c9f743025.png)
+![CategoryScreen_2](https://user-images.githubusercontent.com/98096192/167464632-26ad4320-3d11-43f9-a16d-2ef34bd17741.png)
 
 
 
