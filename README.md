@@ -18,7 +18,7 @@ Open Mind
 
 ## Ürün Açıklaması
 
-- Flutter ile geliştireceğimiz uygulamamız ile; kullanıcıların farklı kategorilerde yer alacak olumlamalar ile psikolojik sağlıklarının desteklenmesini sağlayacağız. Kullanıcılar uygulama içerisinden farklı kategoriler seçerek olumlamaları görüntüleyebilecekleri gibi, gün içerisinde alacakları bildirimlerle de anlık destek sahibi olacaklar.
+- Yaptığımız her davranış, zihnimizden geçen her düşüncenin bir enerjisi vardır. Gün içerisinde insanlar birçok olumsuz düşünceye kapılmaktadır. Bu olumsuz düşünceler negatif enerjiyi çekmemize neden olur. Bu negatif enerjiyi tersine çevirmek ise olumlamalar sayesinde mümkündür. Olumlamalar içinde bulunduğumuz durumun olumlu yönlerini görmemizi sağlar. Kullandığımız her bir olumlama sayesinde negatif düşünceler yerini pozitif düşüncelere bırakacaktır. Flutter ile geliştireceğimiz uygulamamız ile; kullanıcılar farklı kategorilerde yer alan negatif düşünce ve inançlarını  olumlamalar sayesinde bilinçli farkındalığa dönüştürecektir. Kullanıcılar uygulama içerisinden farklı kategoriler seçerek gün içerisinde bilinçsel farkındalığını artıracak ve olumlu düşünmelerini sağlayacak olumlama bildirimleri alacak ve görüntüleyecektir.
 
 ## Ürün Özellikleri
 
@@ -53,8 +53,12 @@ Open Mind
 ![Sprint 1 Ending 2](https://user-images.githubusercontent.com/98096192/167476278-99b5e960-2b71-42cf-b57e-94b6d716fcb3.png)
 
 #### Ürün Ekran Görüntüleri
+![Login Screen_1](https://user-images.githubusercontent.com/98096192/167489796-66f5d6ed-b248-42d8-93d8-c06ba0c1adec.jpeg)
+![Login Screen_2](https://user-images.githubusercontent.com/98096192/167489812-22021864-68bf-47da-9963-c3fa81bf2f87.jpeg)
 ![CategoryScreen_1](https://user-images.githubusercontent.com/98096192/167464612-cc06b061-39e6-42b0-b61d-c89c9f743025.png)
 ![CategoryScreen_2](https://user-images.githubusercontent.com/98096192/167464632-26ad4320-3d11-43f9-a16d-2ef34bd17741.png)
+
+
 
 #### Review Notları
 * İlk sprint kapsamında tasarlanması planlanan ürün sayfalarının hepsi tamamlanamadı ancak hazırlanmış olan sayfaların tasarımı ve yapısında bir eksik görülmemiştir.
