@@ -35,6 +35,9 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   icofont_flutter: ^1.4.0
+  eva_icons_flutter: ^3.1.0
+  google_fonts: ^2.3.2
+
 
 dev_dependencies:
   flutter_test:
@@ -66,6 +69,21 @@ flutter:
     - assets/images/health.jpg
     - assets/images/love.jpg
     - assets/images/money.jpg
+    - assets/images/success_aff.png
+    - assets/images/bad_habits.jpg
+    - assets/images/nature_images/nature1.jpg
+    - assets/images/nature_images/nature2.jpg
+    - assets/images/nature_images/nature3.jpg
+    - assets/images/nature_images/nature4.jpg
+    - assets/images/nature_images/nature5.jpg
+    - assets/images/nature_images/nature6.jpg
+    - assets/images/nature_images/nature7.jpg
+    - assets/images/nature_images/nature8.jpg
+    - assets/images/nature_images/nature9.jpg
+    - assets/images/nature_images/nature10.jpg
+    - assets/images/nature_images/nature11.jpg
+    - assets/images/nature_images/nature12.jpg
+    - assets/images/nature_images/nature13.jpg
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
