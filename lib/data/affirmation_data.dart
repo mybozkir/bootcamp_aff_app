@@ -1,5 +1,5 @@
 class AffirmationData {
-  static const List<String> successAffirmations = [
+    static final List<String> _successAffirmations = [
     "Aklımı seviyorum. Düşüncelerim huzurlu.",
     "Ne yaptığımı biliyorum. Her şey yolunda gidiyor.",
     "Aklım sağlıklı ve düzgün işliyor.",
@@ -52,7 +52,7 @@ class AffirmationData {
     "Güçlü ve kabiliyetliyim.",
     "Başarılı bir şekilde çalışan tüm hücrelerime ve düşüncelerime teşekkür ederim.",
   ];
-  static const List<String> healthAffirmations = [
+    static final List<String> _healthAffirmations = [
   "Bedenime, zihnime ve duygularıma sevgiyle dikkat ve özen gösteriyorum.",
   "Ben olmak iyi ve güvenli (tehlikesiz) bir şey. Olduğum gibi harikayım. Yaşamayı seçiyorum. Mutluluğu ve kendimi kabullenmeyi seçiyorum.",
   "Artık kendi hayatımın sorumluluğunu üstlenebilirim. Özgür olmayı seçiyorum.",
@@ -117,7 +117,7 @@ class AffirmationData {
   "Tüm organlarımı seviyor ve onlara teşekkür ediyorum.",
   "Sağlığım her gün daha iyiye gidiyor",
   ];
-  static const List<String> moneyAffirmations = [
+  static final List<String> _moneyAffirmations = [
   "Ben bolluk ve zenginlik içinde yaşamayı hakediyorum.",
   "Bolluk ve berekete layık olduğuma inanıyorum",
   "Herkese yetecek kadar bolluk olduğunu biliyorum.",
@@ -169,7 +169,7 @@ class AffirmationData {
   "Zenginlik, bolluk ve refahı yayarım.",
   "Zenginliğim, dünyaya daha fazla hizmet verdiğim için sonsuza dek artıyor.",
   ];
-  static const List<String> loveAffirmations = [
+  static final List<String> _loveAffirmations = [
   "İçimdeki çocuk bugün aşkı keşfediyor.",
   "Etrafım sevgi ile çevrili ve her şey yolunda.",
   "Kalbim her zaman sevgiye açık ve aşkı yayıyorum.",
@@ -221,59 +221,59 @@ class AffirmationData {
   "Kalbim sevgiye tam olarak açık.",
   "Ben sevgi ve güzelliğe odaklanıyorum.",
   ];
-  static const List<String> anxietyAffirmations = [
-  "Kendimi koşulsuz olarak seviyorum.",
-  "GÜÇLÜYÜM!",
-  "Hayatımda yalnızca sağlıklı ve sevgi dolu ilişkilere izin veriyorum.",
-  "Hayat benim için en iyisini istiyor. Şu an bulunduğum yerde iyiyim.",
-  "Tüm insanlarla, her ortamda rahatım.",
-  "Hayatın şu anda sunduğu basit zevkleri bulup zevk alıyorum.",
-  "Nasıl hissettiğimi biliyorum, bu yüzden yaşamımı kendimi iyi hissettiren yönlere yoğunlaştırıyorum!",
-  "Zorluklarım bana daha iyi fırsatlar sunuyor.",
-  "Ruh halim vücudumda fizyolojik bir tepki yaratıyor. Huzurlu ve pozitifim.",
-  "Düşüncelerimin duygularımın ve hayatımın kontrolünü elimde tutuyorum.",
-  "Kendimi seviyor ve onaylıyorum ve yaşam sürecine güveniyorum. Emin ellerdeyim.",
-  "Ben sonsuza dek sürecek, ebedi bir yolculuktayım ve yeterince bol zamana sahibim. Yürekten iletişim kuruyorum. Her şey yolunda.",
-  "Her şey olması gerektiği zamanda olması gerektiği şekilde oluyor.",
-  "Kendimi güvende hissediyorum. Kendim gibi olmaktan memnunum.",
-  "Kendimi olduğum halimle kabul ediyorum ve seviyorum. Her şey olması gerektiği zamanda olması gerektiği şekilde oluyor. Hayatla barış içindeyim. Hayatın akışına güveniyorum. Hayatı Seviyorum. Her an huzurlu ve mutluyum. Güçlü ve sağlıklıyım.",
-  "Her an bir bebek kadar huzurlu ve sakinim.",
-  "Kendimi gevşetiyor ve hayatın zevkle akmasına izin veriyorum. Yaşama sevinciyle doluyum ve bu sevinç kalbimin her atışında tüm bedenime yayılıyor. Yaşadığım her deneyim beni güçlendiriyor, geliştiriyor. Hayatın akışına güveniyorum. Her yeni deneyime kolaylıkla uyum sağlıyorum.",
-  "Zihnimi gevşetiyor ve huzurla dolmasına izin veriyorum. İçimde ve etrafımda uyum, barış, sevgi ve hazla çevriliyim. Bu an güzelliklerle dolu. Bu güzellikleri görmeyi seçiyorum. Zihnimi ve bedenimi dengeliyorum. Bana iyi duygular veren düşünceleri seçiyorum. Her şeyle baş etme gücüne sahibim.",
-  "Hayatın bütünüyle birim ve her zaman hayata güven duyuyorum. Yapmak istediğim her şey için zamanım var. Düşüncelerim arınmış ve özgür, zihnim dingin.",
-  "Hayatta olmak güzel. Büyümeyi ve hayatımı yönetmeyi seçiyorum. Artık kendi hayatımı kolaylıkla ve zevkle idare ediyorum. Yüreğimdeki sevginin tüm bedenimi ve ruhumu yıkamasına ve iyileştirilmesine izin veriyorum. Yaşam bana her zaman cömert davranıyor. Yaşamın her anından büyük bir keyif alıyorum. Hayatı dolu dolu yaşamayı seçiyorum. Zihnimi ve bedenimi sevgiyle dengeliyorum.",
-  "Yaşamın duru ve temiz.",
- "Tüm deneyimlerime bilgelikle, sevgiyle kolaylıkla yaklaşıyorum ve üstesinden geliyorum.",
-  "Geçmişimle, bugünümle ve geleceğimle barışık olmayı seçiyorum.",
-  "Duygularımı şimdi mutluluk ve memnuniyetle değiştirmeyi seçiyorum.",
-  "Daha Yüksek bir Güç tarafından yönlendirilmek için kendimi güvende hissediyorum.",
-  "Sevgi, kutsama ve teşvik aldığım gerçeğini takdir ediyorum.",
-  "Kendimi Evrenin benim için sahip olduğu daha büyük plana teslim ediyorum, ancak bu benim anlayışımın ötesinde.",
-  "Mutlu, rahat ve bağımsız hissetmeyi seviyorum.",
-  "Tahmin ettiğimden daha sert ve güçlüyüm.",
-  "Her şey geçici ve bu da geçecek.",
-  "Hayatımda beni bekleyen çok şey var.",
-  "Hayatın beni iyi yerlere götüreceğine inanıyorum.",
-  "Ben ilahi olanın bir parçasıyım ve sakin ve dingin olmak benim özelliğim.",
-  "Evren her zaman benim için çalışıyor.",
-  "Etrafımda ne olursa olsun, zihnim her zaman sakin kalır.",
-  "Hayallerime ve hedeflerime odaklanıyorum.",
- "Zihnim sakin, bedenim rahat.",
- "Sakin, berrak ve keskin hissetmeyi seviyorum.",
-  "İstediğim her şeyi ona odaklanarak tezahür ettirebilirim.",
- "Vücudumu yavaşça terk eden stresi hissediyorum.",
-  "Durumlara tepki yerine cevap vermeyi seçiyorum.",
-  "Değiştiremediğim bazı şeyler var ve bunda sorun yok.",
-  "Bu durum da geçecek,bu yüzden sakin bir şekilde başa çıkmayı seçiyorum.",
-  "Nefes verirken stres bedenimi terk eder.",
-  "Bugün ve her gün neşeyi seçiyorum.",
-  "Ortaya çıkanlarla başa çıkmak için kendime güveniyorum.",
-  "Başkalarının zorluk olarak gördüğü şeyleri ben fırsat olarak görüyorum.",
-  "Evrenin yüksek iyiliğimi her dem gözettiğini biliyor ve buna güveniyorum.",
-  "Sakinlik ,aldığım her derin nefesle benimle birlikte oluyor.",
-  "Her seferinde bir gün, her seferinde bir adım.",
+  static final List<String> _anxietyAffirmations = [
+    "Kendimi koşulsuz olarak seviyorum.",
+    "GÜÇLÜYÜM!",
+    "Hayatımda yalnızca sağlıklı ve sevgi dolu ilişkilere izin veriyorum.",
+    "Hayat benim için en iyisini istiyor. Şu an bulunduğum yerde iyiyim.",
+    "Tüm insanlarla, her ortamda rahatım.",
+    "Hayatın şu anda sunduğu basit zevkleri bulup zevk alıyorum.",
+    "Nasıl hissettiğimi biliyorum, bu yüzden yaşamımı kendimi iyi hissettiren yönlere yoğunlaştırıyorum!",
+    "Zorluklarım bana daha iyi fırsatlar sunuyor.",
+    "Ruh halim vücudumda fizyolojik bir tepki yaratıyor. Huzurlu ve pozitifim.",
+    "Düşüncelerimin duygularımın ve hayatımın kontrolünü elimde tutuyorum.",
+    "Kendimi seviyor ve onaylıyorum ve yaşam sürecine güveniyorum. Emin ellerdeyim.",
+    "Ben sonsuza dek sürecek, ebedi bir yolculuktayım ve yeterince bol zamana sahibim. Yürekten iletişim kuruyorum. Her şey yolunda.",
+    "Her şey olması gerektiği zamanda olması gerektiği şekilde oluyor.",
+    "Kendimi güvende hissediyorum. Kendim gibi olmaktan memnunum.",
+    "Kendimi olduğum halimle kabul ediyorum ve seviyorum. Her şey olması gerektiği zamanda olması gerektiği şekilde oluyor. Hayatla barış içindeyim. Hayatın akışına güveniyorum. Hayatı Seviyorum. Her an huzurlu ve mutluyum. Güçlü ve sağlıklıyım.",
+    "Her an bir bebek kadar huzurlu ve sakinim.",
+    "Kendimi gevşetiyor ve hayatın zevkle akmasına izin veriyorum. Yaşama sevinciyle doluyum ve bu sevinç kalbimin her atışında tüm bedenime yayılıyor. Yaşadığım her deneyim beni güçlendiriyor, geliştiriyor. Hayatın akışına güveniyorum. Her yeni deneyime kolaylıkla uyum sağlıyorum.",
+    "Zihnimi gevşetiyor ve huzurla dolmasına izin veriyorum. İçimde ve etrafımda uyum, barış, sevgi ve hazla çevriliyim. Bu an güzelliklerle dolu. Bu güzellikleri görmeyi seçiyorum. Zihnimi ve bedenimi dengeliyorum. Bana iyi duygular veren düşünceleri seçiyorum. Her şeyle baş etme gücüne sahibim.",
+    "Hayatın bütünüyle birim ve her zaman hayata güven duyuyorum. Yapmak istediğim her şey için zamanım var. Düşüncelerim arınmış ve özgür, zihnim dingin.",
+    "Hayatta olmak güzel. Büyümeyi ve hayatımı yönetmeyi seçiyorum. Artık kendi hayatımı kolaylıkla ve zevkle idare ediyorum. Yüreğimdeki sevginin tüm bedenimi ve ruhumu yıkamasına ve iyileştirilmesine izin veriyorum. Yaşam bana her zaman cömert davranıyor. Yaşamın her anından büyük bir keyif alıyorum. Hayatı dolu dolu yaşamayı seçiyorum. Zihnimi ve bedenimi sevgiyle dengeliyorum.",
+    "Yaşamın duru ve temiz.",
+   "Tüm deneyimlerime bilgelikle, sevgiyle kolaylıkla yaklaşıyorum ve üstesinden geliyorum.",
+    "Geçmişimle, bugünümle ve geleceğimle barışık olmayı seçiyorum.",
+    "Duygularımı şimdi mutluluk ve memnuniyetle değiştirmeyi seçiyorum.",
+    "Daha Yüksek bir Güç tarafından yönlendirilmek için kendimi güvende hissediyorum.",
+    "Sevgi, kutsama ve teşvik aldığım gerçeğini takdir ediyorum.",
+    "Kendimi Evrenin benim için sahip olduğu daha büyük plana teslim ediyorum, ancak bu benim anlayışımın ötesinde.",
+    "Mutlu, rahat ve bağımsız hissetmeyi seviyorum.",
+    "Tahmin ettiğimden daha sert ve güçlüyüm.",
+    "Her şey geçici ve bu da geçecek.",
+    "Hayatımda beni bekleyen çok şey var.",
+    "Hayatın beni iyi yerlere götüreceğine inanıyorum.",
+    "Ben ilahi olanın bir parçasıyım ve sakin ve dingin olmak benim özelliğim.",
+    "Evren her zaman benim için çalışıyor.",
+    "Etrafımda ne olursa olsun, zihnim her zaman sakin kalır.",
+    "Hayallerime ve hedeflerime odaklanıyorum.",
+   "Zihnim sakin, bedenim rahat.",
+   "Sakin, berrak ve keskin hissetmeyi seviyorum.",
+    "İstediğim her şeyi ona odaklanarak tezahür ettirebilirim.",
+   "Vücudumu yavaşça terk eden stresi hissediyorum.",
+    "Durumlara tepki yerine cevap vermeyi seçiyorum.",
+    "Değiştiremediğim bazı şeyler var ve bunda sorun yok.",
+    "Bu durum da geçecek,bu yüzden sakin bir şekilde başa çıkmayı seçiyorum.",
+    "Nefes verirken stres bedenimi terk eder.",
+    "Bugün ve her gün neşeyi seçiyorum.",
+    "Ortaya çıkanlarla başa çıkmak için kendime güveniyorum.",
+    "Başkalarının zorluk olarak gördüğü şeyleri ben fırsat olarak görüyorum.",
+    "Evrenin yüksek iyiliğimi her dem gözettiğini biliyor ve buna güveniyorum.",
+    "Sakinlik ,aldığım her derin nefesle benimle birlikte oluyor.",
+    "Her seferinde bir gün, her seferinde bir adım.",
   ];
-  static const List<String> chakraAffirmations_root = [
+  static final List<String> _chakraAffirmations_root = [
     "Güvendeyim",
     "Hayatımı seviyorum.",
     "Kendime hemen şimdi burada ve anda olmaya izin veriyorum.",
@@ -288,7 +288,7 @@ class AffirmationData {
     "Kendimi seviyorum.",
     "Geçmişimi bırakıyorum.",
   ];
-  static const List<String> chakraAffirmations_sacral = [
+  static final List<String> _chakraAffirmations_sacral = [
     "Duygularımı sağlıklı bir şekilde ifade ediyorum.",
     "Bedenim hakkında iyi hissediyorum.",
     "Yineleyen düşüncelerimi bırakıyorum.",
@@ -301,7 +301,7 @@ class AffirmationData {
     "Yaratıcılığımı yüksek bir amaç için kullanıyorum.",
     "Ben kibar ve şefkat doluyum.",
   ];
-  static const List<String> chakraAffirmations_solar_plexus = [
+  static final List<String> _chakraAffirmations_solar_plexus = [
     "Bedenim güçlü ve sağlıklı.",
     "Ruhumun kibarlığına ve oyunculuğuna kendimi açıyorum.",
     "Kendimi ruhuma açıyorum(",
@@ -315,7 +315,7 @@ class AffirmationData {
     "Kendi olacak cesaretim var.",
     "Gücüm ruhumun kibarlığındadır.",
   ];
-  static const List<String> chakraAffirmations_heart = [
+  static final List<String> _chakraAffirmations_heart = [
     "Şefkatli kalbimi hissetmeye izin veriyorum.",
     "Teslim oluyorum ve korkuyu bırakıyorum.",
     "Kendimi sevmeye açıyorum.",
@@ -329,7 +329,7 @@ class AffirmationData {
     "Kendimi ve diğerlerini olduğu gibi kabul ediyorum.",
     "Daha büyük olan hayatla bağlantıdayım.",
   ];
-  static const List<String> chakraAffirmations_throat = [
+  static final List<String> _chakraAffirmations_throat = [
     "Kendimi açık ve sağlıklı bir şekilde ifade ediyorum",
     "Özümü ifade ediyorum.",
     "Kendimi ifade etmek güvenli.",
@@ -343,7 +343,7 @@ class AffirmationData {
     "Ben barışçıl, dingin ve sakinim.",
     "Kendime ve diğerlerine olan sevgimi ifade ediyorum.",
   ];
-  static const List<String> chakraAffirmations_third_eye = [
+  static final List<String> _chakraAffirmations_third_eye = [
     "Hayatım zerafet ile doluyor.",
     "Sezgilerimi bilgece kullanıyorum.",
     "Bağlantıları ve daha derin olan gerçeği görüyorum.",
@@ -358,7 +358,7 @@ class AffirmationData {
     "Kendimi içgörü ve netliğe açıyorum.",
     "Hayatımı bilinçli bir şekilde yaratıyorum.",
   ];
-  static const List<String> chakraAffirmations_crown = [
+  static final List<String> _chakraAffirmations_crown = [
     "Diğer canlılar, cennet ve dünya ve Evren ile bağlantıdayım.",
     "Biliyor ve anlıyorum",
     "İlahi olanla birim.",
@@ -369,4 +369,21 @@ class AffirmationData {
     "Acıdaki derin gerçeği anlıyorum.(",
     "Ben barışım.",
   ];
+
+  static final List<String> successAffirmationsShuffled = _successAffirmations..shuffle();
+  static final List<String> anxietyAffirmationsShuffled = _anxietyAffirmations..shuffle();
+  static final List<String> loveAffirmationsShuffled = _loveAffirmations..shuffle();
+  static final List<String> healthAffirmationsShuffled = _healthAffirmations..shuffle();
+  static final List<String> moneyAffirmationsShuffled = _moneyAffirmations..shuffle();
+  static final List<String> chakraSolarPlexusAffirmationsShuffled = _chakraAffirmations_solar_plexus..shuffle();
+  static final List<String> chakraSacralAffirmationsShuffled = _chakraAffirmations_sacral..shuffle();
+  static final List<String> chakraRootAffirmationsShuffled = _chakraAffirmations_root..shuffle();
+  static final List<String> chakraCrownAffirmationsShuffled = _chakraAffirmations_crown..shuffle();
+  static final List<String> chakraHeartAffirmationsShuffled = _chakraAffirmations_heart..shuffle();
+  static final List<String> chakraThirdEyeAffirmationsShuffled = _chakraAffirmations_third_eye..shuffle();
+  static final List<String> chakraThroatAffirmationsShuffled  = _chakraAffirmations_throat..shuffle();
+
+
 }
+
+

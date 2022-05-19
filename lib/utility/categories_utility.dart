@@ -1,10 +1,10 @@
 import 'package:bootcamp_aff_app/models/categories_model.dart';
-import 'package:bootcamp_aff_app/screens/anxiety_screen.dart';
-import 'package:bootcamp_aff_app/screens/chakra_screen.dart';
-import 'package:bootcamp_aff_app/screens/health_screen.dart';
-import 'package:bootcamp_aff_app/screens/love_screen.dart';
-import 'package:bootcamp_aff_app/screens/money_screen.dart';
-import 'package:bootcamp_aff_app/screens/success_screen.dart';
+import 'package:bootcamp_aff_app/pages/affirmation_pages/anxiety_aff_screen.dart';
+import 'package:bootcamp_aff_app/pages/affirmation_pages/chakra_aff_screen.dart';
+import 'package:bootcamp_aff_app/pages/affirmation_pages/health_aff_screen.dart';
+import 'package:bootcamp_aff_app/pages/affirmation_pages/love_aff_screen.dart';
+import 'package:bootcamp_aff_app/pages/affirmation_pages/money_aff_screen.dart';
+import 'package:bootcamp_aff_app/pages/affirmation_pages/success_aff_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:icofont_flutter/icofont_flutter.dart';
 
@@ -27,7 +27,7 @@ class CategoryUtility{
           routePage: _CategoryRoutePages.health_screen
       ),
       Category(
-          name: "Para",
+          name: "Bolluk & Bereket",
           color: _ColorItems.moneyColor,
           imageName: "money",
           icon: const Icon(IcoFontIcons.moneyBag),
@@ -59,19 +59,19 @@ class CategoryUtility{
 }
 
 class _ColorItems{
-  static final Color careerColor = Colors.lightBlue;
-  static final Color healthColor = Colors.red;
-  static final Color moneyColor = Colors.green;
-  static final Color loveColor = Colors.pinkAccent;
-  static final Color anxietyColor = Colors.white70;
-  static final Color chakraColor = Colors.deepPurpleAccent;
+  static const Color careerColor = Colors.lightBlue;
+  static const Color healthColor = Colors.red;
+  static const Color moneyColor = Colors.green;
+  static const Color loveColor = Colors.pinkAccent;
+  static const Color anxietyColor = Colors.white70;
+  static const Color chakraColor = Colors.deepPurpleAccent;
 }
 
 class _CategoryRoutePages{
-  static final SuccessScreen success_screen = SuccessScreen();
-  static final HealthScreen health_screen = HealthScreen();
-  static final MoneyScreen money_screen = MoneyScreen();
-  static final LoveScreen love_screen = LoveScreen();
-  static final AnxietyScreen anxiety_screen = AnxietyScreen();
-  static final ChakraScreen chakra_screen = ChakraScreen();
+  static const SuccessAffirmationScreen success_screen = SuccessAffirmationScreen();
+  static const HealthAffirmationScreen health_screen = HealthAffirmationScreen();
+  static const MoneyAffirmationScreen money_screen = MoneyAffirmationScreen();
+  static const LoveAffirmationScreen love_screen = LoveAffirmationScreen();
+  static const AnxietyAffirmationScreen anxiety_screen = AnxietyAffirmationScreen();
+  static const ChakraAffirmationScreen chakra_screen = ChakraAffirmationScreen();
 }
