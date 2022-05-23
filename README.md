@@ -69,4 +69,34 @@ Open Mind
 * Grup içinde takım üyeleri arasındaki iletişim veriminin arttırılması konusunda mutabık kalınmıştır.
 * Proje yönetiminin ve çalışma ortamlarının sistematiği konusunda verimli bir çalışma yapıldığı konusunda hemfikir olunmuştur.
 
+## Sprint 2
+#### Sprint Notları: 
+* İkinci sprint içerisinde olumlama database'i uygulama içerisinde locale olarak oluşturulmuştur. 7 çakra kategorisi içinde GridView görünümünde bir ara kategori ekranı daha eklenmiştir. Tüm kategoriler içindeki ekran görünümleri PageBuilder methoduyla oluşturularak tasarımlar ilk versiyon olacak şekilde eklenmiştir. Uygulama açılışı için Splash screen ve ilk kullanımda kullanıcıya rehberlik edecek onboarding ekranları ilk tasarımına ulaştırılmıştır. 
 
+* Daily Scrum toplantılarının ekip üyelerinin yoğun programlarından ötürü, ekip asistanına danışılarak 3 günde bir yapılmasına karar verilmiştir. Daily Scrum toplantıları Slack üstünden yapılmakta ve daily scrum notları linkte iletilen drive dosyasında toplanmaktadır.[Daily Scrum Notları](https://docs.google.com/document/d/1tDGQrZBEeHu6yRTfHdTiCbPkyvRZkLBD/edit?usp=sharing&ouid=104325039060781909131&rtpof=true&sd=true)
+
+* Sprint Board Update
+#### Sprint 2 Board Update
+![Sprint 2 Board Update](https://user-images.githubusercontent.com/98096192/169880779-49d08e65-28cd-479c-88bc-c67fdea464fc.png)
+
+#### Ürün Ekran Görüntüleri
+
+![ask_iliskiler_screen](https://user-images.githubusercontent.com/98096192/169880872-1ca1161c-5fe1-47a4-85b1-964a75347e9d.png)
+![bolluk_bereket_screen](https://user-images.githubusercontent.com/98096192/169880880-e535eb7f-3fd1-49e8-9e0f-9b94d34ce15e.png)
+![onboarding_sample_screen](https://user-images.githubusercontent.com/98096192/169880885-752e7a09-10a2-4ca0-9f07-ec7baf4b7c03.png)
+![sacral_screen](https://user-images.githubusercontent.com/98096192/169880889-18fe39b2-8821-4735-a3c9-3741517f382b.png)
+![seven_chakras_category_screen](https://user-images.githubusercontent.com/98096192/169880890-d8b397e0-6533-47aa-a1b3-47f06c83cf7a.png)
+![solar_plexus_screen](https://user-images.githubusercontent.com/98096192/169880894-19c0a1d2-b739-425a-9b63-28daf628a294.png)
+![splash_screen](https://user-images.githubusercontent.com/98096192/169880898-f30c7544-617c-49f7-bee6-5f5d4dca3e10.png)
+
+#### Review Notları
+* Sprint 2 nezdinde yapılan işin miktarı ve yapılan ön tasarımlar yeterli görülmüştür.
+
+#### Retrospective Notları
+* Sprint 2 içerisinde üyelerin kişisel yoğunluklarından ötürü, iletişim yönünde yaşanan sıkıntılar düzeltilemedi.
+* Üyelerin kişisel yoğunlukları ve bazı ekip arkadaşlarının sağlık sorunları nedeniye Sprint 2 planında yapılması planlanan işlerin çoğu tamamlanamadı.
+* Oluşturulan ekran tasarımları kısmen planlamaya uygun olmuş olsa da kalanı planlama haricinde olacak şekilde inisiyatif alınarak oluşturuldu.
+* Sprint planlamasına çoğunlukla bağlı kalınamasa da bitirilen iş miktarı makul düzeylerde olmuştur.
+* Son Sprint içinde ekip üyelerinin olabildiğince sık iletişimde olmaya çaba göstermesi ve kalan işlerin hızlı bir şekilde bitirilmesi konusunda mutabık kalındı.
+* Son sprint içerisinde ekran tasarımlarının kodlanmasını yanı sıra ses ve görsel dosyalarının da hızlı bir şekilde son haline ulaştırılarak verinin eksiksiz verilmesi konusunda mutabık kalındı.
+* İlk versiyonlarında olan ekran tasarımları da ortak bir kararla son haline ulaştırılacak şekilde düzenlenecektir.
