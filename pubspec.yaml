@@ -20,6 +20,7 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.16.2 <3.0.0"
 
+
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
 # consider running `flutter pub upgrade --major-versions`. Alternatively,
@@ -29,19 +30,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  smooth_page_indicator: ^1.0.0+2
   cupertino_icons: ^1.0.2
   icofont_flutter: ^1.4.0
   eva_icons_flutter: ^3.1.0
   google_fonts: ^2.3.2
+  flutter_svg: ^1.0.3
+  shared_preferences: ^2.0.15
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^2.1.3+1
+
+flutter_native_splash:
+  color: "#9e00a3"
+  image: assets/images/logo.png
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -63,27 +69,12 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/anxiety.jpg
-    - assets/images/career.jpg
-    - assets/images/chakra.jpg
-    - assets/images/health.jpg
-    - assets/images/love.jpg
-    - assets/images/money.jpg
-    - assets/images/success_aff.png
-    - assets/images/bad_habits.jpg
-    - assets/images/nature_images/nature1.jpg
-    - assets/images/nature_images/nature2.jpg
-    - assets/images/nature_images/nature3.jpg
-    - assets/images/nature_images/nature4.jpg
-    - assets/images/nature_images/nature5.jpg
-    - assets/images/nature_images/nature6.jpg
-    - assets/images/nature_images/nature7.jpg
-    - assets/images/nature_images/nature8.jpg
-    - assets/images/nature_images/nature9.jpg
-    - assets/images/nature_images/nature10.jpg
-    - assets/images/nature_images/nature11.jpg
-    - assets/images/nature_images/nature12.jpg
-    - assets/images/nature_images/nature13.jpg
+
+    - assets/
+    - assets/images/
+    - assets/images/nature_images/
+    - assets/images/seven_chakras_images/background/
+    - assets/images/seven_chakras_images/logo/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
