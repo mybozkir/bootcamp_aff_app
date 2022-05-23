@@ -1,3 +1,4 @@
+import 'package:bootcamp_aff_app/pages/categories_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
@@ -199,7 +200,7 @@ class LogIn extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => const HomePage()),
+                        MaterialPageRoute(builder: (context) => CategoryScreen()),
                       );
                     },
                     child: Text(

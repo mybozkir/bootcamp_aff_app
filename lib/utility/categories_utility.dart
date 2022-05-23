@@ -1,10 +1,10 @@
 import 'package:bootcamp_aff_app/models/categories_model.dart';
 import 'package:bootcamp_aff_app/pages/affirmation_pages/anxiety_aff_screen.dart';
-import 'package:bootcamp_aff_app/pages/affirmation_pages/chakra_aff_screen.dart';
 import 'package:bootcamp_aff_app/pages/affirmation_pages/health_aff_screen.dart';
 import 'package:bootcamp_aff_app/pages/affirmation_pages/love_aff_screen.dart';
 import 'package:bootcamp_aff_app/pages/affirmation_pages/money_aff_screen.dart';
 import 'package:bootcamp_aff_app/pages/affirmation_pages/success_aff_screen.dart';
+import 'package:bootcamp_aff_app/pages/seven_chakras_categories_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:icofont_flutter/icofont_flutter.dart';
 
@@ -52,7 +52,7 @@ class CategoryUtility{
           color: _ColorItems.chakraColor,
           imageName: "chakra",
           icon: const Icon(IcoFontIcons.shipWheel),
-          routePage: _CategoryRoutePages.chakra_screen
+          routePage: _CategoryRoutePages.seven_chakras_categories_screen
       ),
     ];
   }
@@ -73,5 +73,5 @@ class _CategoryRoutePages{
   static const MoneyAffirmationScreen money_screen = MoneyAffirmationScreen();
   static const LoveAffirmationScreen love_screen = LoveAffirmationScreen();
   static const AnxietyAffirmationScreen anxiety_screen = AnxietyAffirmationScreen();
-  static const ChakraAffirmationScreen chakra_screen = ChakraAffirmationScreen();
+  static SevenChakrasCategoriesScreen seven_chakras_categories_screen = SevenChakrasCategoriesScreen();
 }

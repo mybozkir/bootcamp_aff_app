@@ -1,8 +1,8 @@
 
-import 'package:bootcamp_aff_app/pages/affirmation_pages/money_aff_screen.dart';
-import 'package:bootcamp_aff_app/pages/affirmation_pages/success_aff_screen.dart';
 import 'package:bootcamp_aff_app/pages/categories_screen.dart';
+import 'package:bootcamp_aff_app/pages/onboarding_widget.dart';
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: CategoryScreen(),
+      home: Onboarding(),
     );
   }
 }
