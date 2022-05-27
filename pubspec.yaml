@@ -75,6 +75,7 @@ flutter:
     - assets/images/nature_images/
     - assets/images/seven_chakras_images/background/
     - assets/images/seven_chakras_images/logo/
+    - assets/images/seven_chakras_images/card_background/
 
 
   # An image asset can refer to one or more resolution-specific "variants", see

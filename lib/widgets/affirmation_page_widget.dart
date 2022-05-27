@@ -39,23 +39,27 @@ class AffirmationPageWidget extends StatelessWidget {
 
   Center affirmationImageMethod(BuildContext context) {
     return Center(
-                    child: Container(
-                      height: MediaQuery.of(context).size.height / 1.20,
-                      decoration: BoxDecoration(
-                          boxShadow: const [
-                            BoxShadow(
-                              color: Colors.white70,
-                              offset: Offset.zero,
-                              blurRadius: 5,
-                            ),
-                          ],
-                          borderRadius: BorderRadius.circular(20),
-                          image: DecorationImage(
-                            image: AssetImage(
-                              'assets/images/${affirmationImage}',
-                            ),
-                            fit: BoxFit.cover,
-                          )
+                    child: Padding(
+                      padding: EdgeInsets.only(top: MediaQuery.of(context).size.height / 10),
+                      child: Container(
+                        height: MediaQuery.of(context).size.height / 1.30,
+                        alignment: Alignment.center,
+                        decoration: BoxDecoration(
+                            boxShadow: const [
+                              BoxShadow(
+                                color: Colors.white70,
+                                offset: Offset.zero,
+                                blurRadius: 5,
+                              ),
+                            ],
+                            borderRadius: BorderRadius.circular(20),
+                            image: DecorationImage(
+                              image: AssetImage(
+                                'assets/images/${affirmationImage}',
+                              ),
+                              fit: BoxFit.cover,
+                            )
+                        ),
                       ),
                     ),
                   );
@@ -72,7 +76,7 @@ class AffirmationPageWidget extends StatelessWidget {
   Center affirmationTextMethod(int index) {
     return Center(
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 50),
+                    padding: EdgeInsets.only(right: 50, left: 50, top: 90),
                     child: Text(
                       affirmationList[index],
                       style: const TextStyle(

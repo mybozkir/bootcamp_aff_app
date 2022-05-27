@@ -35,43 +35,43 @@ class AffirmationsUtility{
   );
   static final AffirmationModel solar_plexus_chakra_affirmations = AffirmationModel(
       name: 'Solar Plexus Chakra',
-      imageName: 'seven_chakras_images/background/solar_plexus_chakra_background.jpg',
+      imageName: 'seven_chakras_images/card_background/solarplexus_cb.jpg',
       backgroundImageName: 'seven_chakras_images/background/solar_plexus_chakra_background.jpg',
       list: AffirmationData.chakraSolarPlexusAffirmationsShuffled,
   );
   static final AffirmationModel sacral_chakra_affirmations = AffirmationModel(
       name: 'Sacral Chakra',
-      imageName: 'seven_chakras_images/background/sacral_chakra_background.jpg',
+      imageName: 'seven_chakras_images/card_background/sacral_cb.jpg',
       backgroundImageName: 'seven_chakras_images/background/sacral_chakra_background.jpg',
       list: AffirmationData.chakraSacralAffirmationsShuffled,
   );
   static final AffirmationModel root_chakra_affirmations = AffirmationModel(
       name: 'Root Chakra',
-      imageName: 'seven_chakras_images/background/root_chakra_background.jpg',
+      imageName: 'seven_chakras_images/card_background/root_cb.jpg',
       backgroundImageName: 'seven_chakras_images/background/root_chakra_background.jpg',
       list: AffirmationData.chakraRootAffirmationsShuffled,
   );
   static final AffirmationModel crown_chakra_affirmations = AffirmationModel(
       name: 'Crown Chakra',
-      imageName: 'seven_chakras_images/background/crown_chakra_background.jpg',
+      imageName: 'seven_chakras_images/card_background/crown_cb.jpg',
       backgroundImageName: 'seven_chakras_images/background/crown_chakra_background.jpg',
       list: AffirmationData.chakraCrownAffirmationsShuffled,
   );
   static final AffirmationModel heart_chakra_affirmations = AffirmationModel(
       name: 'Heart Chakra',
-      imageName: 'seven_chakras_images/background/heart_chakra_background.jpg',
+      imageName: 'seven_chakras_images/card_background/heart_cb.jpg',
       backgroundImageName: 'seven_chakras_images/background/heart_chakra_background.jpg',
       list: AffirmationData.chakraHeartAffirmationsShuffled,
   );
   static final AffirmationModel third_eye_chakra_affirmations = AffirmationModel(
       name: 'Third Eye Chakra',
-      imageName: 'seven_chakras_images/background/third_eye_background.jpg',
+      imageName: 'seven_chakras_images/card_background/thirdeye_cb.jpg',
       backgroundImageName: 'seven_chakras_images/background/third_eye_background.jpg',
       list: AffirmationData.chakraThirdEyeAffirmationsShuffled,
   );
   static final AffirmationModel throat_chakra_affirmations = AffirmationModel(
       name: 'Throat Chakra',
-      imageName: 'seven_chakras_images/background/throat_chakra_background.jpg',
+      imageName: 'seven_chakras_images/card_background/throat_cb.jpg',
       backgroundImageName: 'seven_chakras_images/background/throat_chakra_background.jpg',
       list: AffirmationData.chakraThroatAffirmationsShuffled,
   );

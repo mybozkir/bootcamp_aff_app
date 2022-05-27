@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class AffirmationData {
     static final List<String> _successAffirmations = [
     "Aklımı seviyorum. Düşüncelerim huzurlu.",
@@ -383,6 +385,13 @@ class AffirmationData {
   static final List<String> chakraThirdEyeAffirmationsShuffled = _chakraAffirmations_third_eye..shuffle();
   static final List<String> chakraThroatAffirmationsShuffled  = _chakraAffirmations_throat..shuffle();
 
+  static final List<String> _allAffirmations = _successAffirmations + _anxietyAffirmations + _loveAffirmations + _loveAffirmations + _moneyAffirmations + _healthAffirmations + _chakraAffirmations_throat + _chakraAffirmations_third_eye + _chakraAffirmations_heart + _chakraAffirmations_crown + _chakraAffirmations_root + _chakraAffirmations_sacral + _chakraAffirmations_solar_plexus;
+
+  String getRandomAffirmation() {
+    final _random = new Random();
+    String rndAff = _allAffirmations[_random.nextInt(_allAffirmations.length)];
+    return rndAff;
+  }
 
 }
 

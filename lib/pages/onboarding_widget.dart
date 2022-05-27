@@ -1,4 +1,5 @@
 import 'package:bootcamp_aff_app/login.dart';
+import 'package:bootcamp_aff_app/pages/main_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:bootcamp_aff_app/utility/onboarding_utility.dart';
@@ -88,7 +89,7 @@ class _OnboardingState extends State<Onboarding> {
               onPressed: () {
                 if(currentIndex == onboardingContents.length - 1){
                   Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => LogIn()),
+                    MaterialPageRoute(builder: (context) => MainPageWidget()),
                   );
                 }
                 _controller.nextPage(duration: Duration(milliseconds: 1000), curve: Curves.bounceOut);
