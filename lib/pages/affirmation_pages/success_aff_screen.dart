@@ -1,6 +1,7 @@
 
 import 'package:bootcamp_aff_app/utility/affirmation_utility.dart';
 import 'package:bootcamp_aff_app/widgets/affirmation_page_widget.dart';
+import 'package:bootcamp_aff_app/widgets/affirmation_page_widget_nb.dart';
 import 'package:flutter/material.dart';
 
 
@@ -23,10 +24,10 @@ class _SuccessAffirmationScreenState extends State<SuccessAffirmationScreen> {
         leading: const BackButton(),
         backgroundColor: Colors.transparent,
       ),
-      body: AffirmationPageWidget(
-          backgroundImage: SuccessUtility.successBackgroundImageName,
-          affirmationList: SuccessUtility.successAffirmationList,
-          affirmationImage: SuccessUtility.successImageName,
+      backgroundColor: SuccessUtility.successColor,
+      body: AffirmationPageWidgetNB(
+        affirmationImage: SuccessUtility.successImageName,
+        affirmationList: SuccessUtility.successAffirmationList,
       ),
     );
   }
@@ -38,5 +39,5 @@ class SuccessUtility{
   static final String successPageName = AffirmationsUtility.success_affirmations.name;
   static final List<String> successAffirmationList = AffirmationsUtility.success_affirmations.list;
   static final String successImageName = AffirmationsUtility.success_affirmations.imageName;
-  static final String successBackgroundImageName = AffirmationsUtility.success_affirmations.backgroundImageName;
+  static final Color successColor = AffirmationsUtility.success_affirmations.color;
 }

@@ -5,6 +5,7 @@ import 'package:bootcamp_aff_app/data/image_data.dart';
 import 'package:bootcamp_aff_app/pages/categories_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class MainPageWidget extends StatefulWidget {
@@ -40,7 +41,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
       body: Stack(
         children: [
           Image.asset(
-            'assets/images/nature_images/nature4.jpg',
+            'assets/images/main_page_images/anaekran1.jpg',
             fit: BoxFit.cover,
             height: double.infinity,
             width: double.infinity,
@@ -79,10 +80,10 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                 child: Text(
                                   randomAff,
                                   textAlign: TextAlign.center,
-                                  style: TextStyle(
+                                  style: GoogleFonts.contrailOne(
                                     color: Colors.white,
+                                    fontSize: 22,
                                     fontWeight: FontWeight.bold,
-                                    fontSize: 30,
                                   ),
                                 ),
                                 color: Colors.lightBlueAccent.withOpacity(0.1),
@@ -102,7 +103,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(23),
                     ),
-                    color: Colors.purple,
+                    color: Color(0xFFDCE5DC),
                     child: Stack(
                       alignment: AlignmentDirectional.center,
                       children: [
@@ -116,15 +117,14 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                 padding: const EdgeInsets.only(right: 100, left: 20),
                                 child: Text(
                                   'Categories',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.w700,
-                                    fontSize: 24,
+                                  style: GoogleFonts.contrailOne(
+                                    color: Colors.black,
+                                    fontSize: 25,
                                   ),
                                 ),
                               ),
                               IconButton(
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   iconSize: 26,
                                   onPressed: (){
                                     Navigator.push(context, MaterialPageRoute(builder: (context) => CategoryScreen()));
@@ -146,7 +146,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(23),
                     ),
-                    color: Colors.purple,
+                    color: Color(0xFFDCE5DC),
                     child: Stack(
                       alignment: AlignmentDirectional.center,
                       children: [
@@ -160,15 +160,14 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                 padding: const EdgeInsets.only(right: 100, left: 20),
                                 child: Text(
                                   'Music List',
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                    fontWeight: FontWeight.w700,
-                                    fontSize: 24,
+                                  style: GoogleFonts.contrailOne(
+                                    color: Colors.black,
+                                    fontSize: 25,
                                   ),
                                 ),
                               ),
                               IconButton(
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   iconSize: 26,
                                   onPressed: (){},
                                   icon: Icon(Icons.arrow_forward_ios)),

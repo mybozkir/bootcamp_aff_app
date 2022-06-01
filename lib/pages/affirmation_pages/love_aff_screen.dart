@@ -1,5 +1,6 @@
 import 'package:bootcamp_aff_app/utility/affirmation_utility.dart';
 import 'package:bootcamp_aff_app/widgets/affirmation_page_widget.dart';
+import 'package:bootcamp_aff_app/widgets/affirmation_page_widget_nb.dart';
 import 'package:flutter/material.dart';
 
 class LoveAffirmationScreen extends StatelessWidget {
@@ -15,10 +16,10 @@ class LoveAffirmationScreen extends StatelessWidget {
         leading: const BackButton(),
         backgroundColor: Colors.transparent,
       ),
-      body: AffirmationPageWidget(
-          backgroundImage: LoveUtility.loveBackgroundImageName,
-          affirmationList: LoveUtility.loveAffirmationList,
-          affirmationImage: LoveUtility.loveImageName,
+      backgroundColor: LoveUtility.loveColor,
+      body: AffirmationPageWidgetNB(
+        affirmationImage: LoveUtility.loveImageName,
+        affirmationList: LoveUtility.loveAffirmationList,
       ),
     );
   }
@@ -29,5 +30,5 @@ class LoveUtility{
   static final String lovePageName = AffirmationsUtility.love_affirmations.name;
   static final List<String> loveAffirmationList = AffirmationsUtility.love_affirmations.list;
   static final String loveImageName = AffirmationsUtility.love_affirmations.imageName;
-  static final String loveBackgroundImageName = AffirmationsUtility.love_affirmations.backgroundImageName;
+  static final Color loveColor = AffirmationsUtility.love_affirmations.color;
 }

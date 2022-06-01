@@ -17,6 +17,7 @@ class CategoryScreen extends StatelessWidget {
         leading: const BackButton(),
         backgroundColor: Colors.transparent,
       ),
+      backgroundColor: Color(0xFFFFF7F7),
       body: Padding(
         padding: const EdgeInsets.all(5),
         child: Container(
@@ -40,7 +41,7 @@ class CategoryScreen extends StatelessWidget {
                                 child: ClipRRect(
                                   borderRadius: BorderRadius.circular(20),
                                   child: Image.asset(
-                                    'assets/images/' + categories[index].imageName + '.jpg',
+                                    'assets/images/categories_images/' + categories[index].imageName + '.jpg',
                                     fit: BoxFit.cover,
                                   ),
                                 )

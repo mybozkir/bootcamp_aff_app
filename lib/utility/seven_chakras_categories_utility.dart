@@ -14,49 +14,49 @@ class SevenChakrasCategoryutility{
   static List<SevenChakrasCategory> getSevenCategories(){
     return[
       SevenChakrasCategory(
-          name: 'Crown Chakra',
+          name: 'Taç Çakra',
           color: _ColorItems.crownChakraColor,
           imageName: 'crown_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),
           routePage: _SevenChakrasCategoryRoutePages.crown_chakra_screen
       ),
       SevenChakrasCategory(
-          name: 'Heart Chakra',
+          name: 'Kalp Çakrası',
           color: _ColorItems.heartChakraColor,
           imageName: 'heart_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),
           routePage: _SevenChakrasCategoryRoutePages.heart_chakra_screen,
       ),
       SevenChakrasCategory(
-          name: 'Root Chakra',
+          name: 'Kök Çakra',
           color: _ColorItems.rootChakraColor,
           imageName: 'root_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),
           routePage: _SevenChakrasCategoryRoutePages.root_chakra_screen,
       ),
       SevenChakrasCategory(
-          name: 'Sacral Chakra',
+          name: 'Sakral Çakra',
           color: _ColorItems.sacralChakraColor,
           imageName: 'sacral_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),
           routePage: _SevenChakrasCategoryRoutePages.sacral_chakra_screen
       ),
       SevenChakrasCategory(
-          name: 'Solar Plexus Chakra',
+          name: 'Solar Plexus Çakrası',
           color: _ColorItems.solarPlexusChakraColor,
           imageName: 'solar_plexus_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),
           routePage: _SevenChakrasCategoryRoutePages.solar_plexus_chakra_screen,
       ),
       SevenChakrasCategory(
-          name: 'Third Eye Chakra',
+          name: 'Üçüncü Göz Çakrası',
           color: _ColorItems.thirdEyeChakraColor,
           imageName: 'third_eye_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),
           routePage: _SevenChakrasCategoryRoutePages.third_eye_chakra_screen
       ),
       SevenChakrasCategory(
-          name: 'Throat Chakra',
+          name: 'Bogaz Çakrası',
           color: _ColorItems.throatChakraEyeChakraColor,
           imageName: 'throat_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),

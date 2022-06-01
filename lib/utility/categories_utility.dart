@@ -15,7 +15,7 @@ class CategoryUtility{
       Category(
           name: "Başarı & Kariyer",
           color: _ColorItems.careerColor,
-          imageName: "career",
+          imageName: "success",
           icon: Icon(IcoFontIcons.briefcase2),
           routePage: _CategoryRoutePages.success_screen,
       ),

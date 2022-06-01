@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:bootcamp_aff_app/utility/onboarding_utility.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Onboarding extends StatefulWidget {
   const Onboarding({Key? key}) : super(key: key);
@@ -17,6 +18,16 @@ class _OnboardingState extends State<Onboarding> {
   List onboardingContents = OnboardingUtility.getOnboardingModels();
   int currentIndex = 0;
   late PageController _controller;
+
+  Color? backGroundColor(){
+    if(currentIndex == 0){
+      return Color(0xFFF5F5FF);
+    }else if(currentIndex == 1){
+      return Color(0xFFDCDCFF);
+    }else if(currentIndex == 2){
+      return Color(0xFFC2C2FF);
+    }
+  }
 
   @override
   void initState(){
@@ -33,7 +44,8 @@ class _OnboardingState extends State<Onboarding> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      extendBodyBehindAppBar: true,
+      backgroundColor: backGroundColor(),
       body: Column(
         children: [
           Expanded(
@@ -47,7 +59,7 @@ class _OnboardingState extends State<Onboarding> {
               },
               itemBuilder: (context, index){
                 return Padding(
-                  padding: const EdgeInsets.all(40),
+                  padding: const EdgeInsets.only(top: 120),
                   child: Column(
                     children: [
                       SvgPicture.asset(onboardingContents[index].image,height: 300,),
@@ -83,9 +95,12 @@ class _OnboardingState extends State<Onboarding> {
             height: 50,
             margin: EdgeInsets.all(40),
             width: double.infinity,
-            color: Colors.white70,
+            color: Colors.transparent,
             child: TextButton(
-              child: Text(currentIndex == onboardingContents.length - 1 ? 'Başla !' :  'Sonraki'),
+              child: Text(
+                  currentIndex == onboardingContents.length - 1 ? 'Basla !' :  'Sonraki',
+                style: GoogleFonts.contrailOne(),
+              ),
               onPressed: () {
                 if(currentIndex == onboardingContents.length - 1){
                   Navigator.of(context).pushReplacement(
@@ -95,8 +110,8 @@ class _OnboardingState extends State<Onboarding> {
                 _controller.nextPage(duration: Duration(milliseconds: 1000), curve: Curves.bounceOut);
               },
               style: TextButton.styleFrom(
-                primary: Colors.white70,
-                backgroundColor: Theme.of(context).primaryColor,
+                primary: Colors.black,
+                backgroundColor: Color(0xFFF5FFF5),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(20),
                 )

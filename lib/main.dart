@@ -1,5 +1,4 @@
 
-import 'package:bootcamp_aff_app/pages/main_page_widget.dart';
 import 'package:bootcamp_aff_app/pages/onboarding_widget.dart';
 import 'package:flutter/material.dart';
 

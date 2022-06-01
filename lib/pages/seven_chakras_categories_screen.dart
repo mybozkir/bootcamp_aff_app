@@ -1,6 +1,7 @@
 import 'package:bootcamp_aff_app/models/seven_chakras_category_model.dart';
 import 'package:bootcamp_aff_app/utility/seven_chakras_categories_utility.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SevenChakrasCategoriesScreen extends StatelessWidget {
 
@@ -16,6 +17,7 @@ class SevenChakrasCategoriesScreen extends StatelessWidget {
         leading: const BackButton(),
         backgroundColor: Colors.transparent,
       ),
+      backgroundColor: Color(0xFFFFF5F5),
       body: Padding(
         padding: const EdgeInsets.all(5),
         child: Container(
@@ -75,7 +77,7 @@ class SevenChakrasCategoriesScreen extends StatelessWidget {
                                 children: [
                                   Text(
                                     sevenChakraCategories[index].name,
-                                    style: TextStyle(
+                                    style: GoogleFonts.contrailOne(
                                       color: Colors.white70,
                                       fontSize: 14,
                                     ),

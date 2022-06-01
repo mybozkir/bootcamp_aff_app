@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AffirmationPageWidget extends StatelessWidget {
 
@@ -43,6 +44,7 @@ class AffirmationPageWidget extends StatelessWidget {
                       padding: EdgeInsets.only(top: MediaQuery.of(context).size.height / 10),
                       child: Container(
                         height: MediaQuery.of(context).size.height / 1.30,
+                        width: MediaQuery.of(context).size.width / 1.20,
                         alignment: Alignment.center,
                         decoration: BoxDecoration(
                             boxShadow: const [
@@ -79,7 +81,7 @@ class AffirmationPageWidget extends StatelessWidget {
                     padding: EdgeInsets.only(right: 50, left: 50, top: 90),
                     child: Text(
                       affirmationList[index],
-                      style: const TextStyle(
+                      style: GoogleFonts.contrailOne(
                           color: Colors.white,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w700,

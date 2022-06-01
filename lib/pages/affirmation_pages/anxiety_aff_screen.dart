@@ -1,5 +1,9 @@
+import 'dart:math';
+
+import 'package:bootcamp_aff_app/data/image_data.dart';
 import 'package:bootcamp_aff_app/utility/affirmation_utility.dart';
 import 'package:bootcamp_aff_app/widgets/affirmation_page_widget.dart';
+import 'package:bootcamp_aff_app/widgets/affirmation_page_widget_nb.dart';
 import 'package:flutter/material.dart';
 
 class AnxietyAffirmationScreen extends StatefulWidget {
@@ -10,6 +14,7 @@ class AnxietyAffirmationScreen extends StatefulWidget {
 }
 
 class _AnxietyAffirmationScreenState extends State<AnxietyAffirmationScreen> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,10 +25,10 @@ class _AnxietyAffirmationScreenState extends State<AnxietyAffirmationScreen> {
         leading: const BackButton(),
         backgroundColor: Colors.transparent,
       ),
-      body: AffirmationPageWidget(
-          backgroundImage: AnxietyUtility.anxietyBackgroundImageName,
-          affirmationList: AnxietyUtility.anxietyAffirmationList,
-          affirmationImage: AnxietyUtility.anxietyImageName,
+      backgroundColor: AnxietyUtility.anxietyColor,
+      body: AffirmationPageWidgetNB(
+        affirmationImage: AnxietyUtility.anxietyImageName,
+        affirmationList: AnxietyUtility.anxietyAffirmationList,
       ),
     );
   }
@@ -33,5 +38,5 @@ class AnxietyUtility{
   static final String anxietyPageName = AffirmationsUtility.anxiety_affirmations.name;
   static final List<String> anxietyAffirmationList = AffirmationsUtility.anxiety_affirmations.list;
   static final String anxietyImageName = AffirmationsUtility.anxiety_affirmations.imageName;
-  static final String anxietyBackgroundImageName = AffirmationsUtility.anxiety_affirmations.backgroundImageName;
+  static final Color anxietyColor = AffirmationsUtility.anxiety_affirmations.color;
 }
