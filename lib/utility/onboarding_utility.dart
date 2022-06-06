@@ -4,25 +4,20 @@ class OnboardingUtility{
   static List<OnboardingModel> getOnboardingModels(){
     return [
       OnboardingModel(
-        image: 'assets/deneme.svg',
-        title: 'Sayfa 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-            ' Aenean aliquet massa justo, nec hendrerit ipsum laoreet a. Etiam non neque bibendum, blandit libero at, ornare purus.'
-            ' Vivamus in elit congue, sagittis lacus vel, vestibulum erat.',
+        image: 'assets/images/logosvg.svg',
+        title: 'Hoş Geldin!',
+        description: 'Kendini ve düşünce biçimini yeniden yapılandırmaya hazır mısın?'
+        'Olumlama, belirli bir düşünce biçiminin beyne öğretilmesi amacıyla bilince ve bilinçaltına yönelik hazırlanan, kişinin yaşama ve olaylara bakış açısını pozitifyönde değiştirmeyi hedefleyen pozitif ve tekrar eden telkinlerdir.',
       ),
       OnboardingModel(
-        image: 'assets/deneme.svg',
-        title: 'Sayfa 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-            ' Aenean aliquet massa justo, nec hendrerit ipsum laoreet a. Etiam non neque bibendum, blandit libero at, ornare purus.'
-            ' Vivamus in elit congue, sagittis lacus vel, vestibulum erat.',
+        image: 'assets/images/logosvg.svg',
+        title: 'Open Mind ile neler yapabilirsin?',
+        description: 'Open Mind ile 6 kategoride farklı olumlamalara erişebilir ve yaşama yönelik bakış açını değiştirebilirsin. 7 Çakra kategorisiyle birlikte 7 farklı çakranı düzenleyebilir ve hayatı daha pozitif yaşamaya başlayabilirsin. Ana ekranda uygulamaya her girdiğinde seni karşılayacak rastgele bir olumlamanın yanı sıra, kategori sayfasından farklı kategorilere ait olumlamalara erişebilirsin.',
       ),
       OnboardingModel(
-        image: 'assets/deneme.svg',
-        title: 'Sayfa 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-            ' Aenean aliquet massa justo, nec hendrerit ipsum laoreet a. Etiam non neque bibendum, blandit libero at, ornare purus.'
-            ' Vivamus in elit congue, sagittis lacus vel, vestibulum erat.',
+        image: 'assets/images/logosvg.svg',
+        title: 'Haydi hemen başla!',
+        description: 'Evrene mesajını hazırla, bugün dünden daha iyi olsun.',
       ),
     ];
   }

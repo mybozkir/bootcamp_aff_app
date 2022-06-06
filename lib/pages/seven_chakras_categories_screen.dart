@@ -77,7 +77,7 @@ class SevenChakrasCategoriesScreen extends StatelessWidget {
                                 children: [
                                   Text(
                                     sevenChakraCategories[index].name,
-                                    style: GoogleFonts.contrailOne(
+                                    style: GoogleFonts.righteous(
                                       color: Colors.white70,
                                       fontSize: 14,
                                     ),

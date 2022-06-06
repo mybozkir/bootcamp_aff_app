@@ -66,7 +66,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                           Image.asset(
                             currentImage,
                             fit: BoxFit.cover,
-                            height: MediaQuery.of(context).size.height / 1.45,
+                            height: MediaQuery.of(context).size.height / 1.25,
                             width: MediaQuery.of(context).size.width / 1.10,
                           ),
                           ClipRRect(
@@ -76,11 +76,11 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                               child: Container(
                                 alignment: Alignment.center,
                                 width: MediaQuery.of(context).size.width / 1.1,
-                                height: MediaQuery.of(context).size.height / 1.45,
+                                height: MediaQuery.of(context).size.height / 1.25,
                                 child: Text(
                                   randomAff,
                                   textAlign: TextAlign.center,
-                                  style: GoogleFonts.contrailOne(
+                                  style: GoogleFonts.montserrat(
                                     color: Colors.white,
                                     fontSize: 22,
                                     fontWeight: FontWeight.bold,
@@ -117,7 +117,7 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                 padding: const EdgeInsets.only(right: 100, left: 20),
                                 child: Text(
                                   'Categories',
-                                  style: GoogleFonts.contrailOne(
+                                  style: GoogleFonts.righteous(
                                     color: Colors.black,
                                     fontSize: 25,
                                   ),
@@ -129,47 +129,6 @@ class _MainPageWidgetState extends State<MainPageWidget> {
                                   onPressed: (){
                                     Navigator.push(context, MaterialPageRoute(builder: (context) => CategoryScreen()));
                                   },
-                                  icon: Icon(Icons.arrow_forward_ios)),
-                            ],
-                          ),
-                        ),
-
-                      ],
-                    ),
-                  ),
-                ],
-              ),
-              Stack(
-                children: [
-                  Card(
-                    clipBehavior: Clip.antiAlias,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(23),
-                    ),
-                    color: Color(0xFFDCE5DC),
-                    child: Stack(
-                      alignment: AlignmentDirectional.center,
-                      children: [
-                        SizedBox(
-                          width: MediaQuery.of(context).size.width / 1.1,
-                          height: MediaQuery.of(context).size.height / 12,
-                          child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                            children: [
-                              Padding(
-                                padding: const EdgeInsets.only(right: 100, left: 20),
-                                child: Text(
-                                  'Music List',
-                                  style: GoogleFonts.contrailOne(
-                                    color: Colors.black,
-                                    fontSize: 25,
-                                  ),
-                                ),
-                              ),
-                              IconButton(
-                                  color: Colors.black,
-                                  iconSize: 26,
-                                  onPressed: (){},
                                   icon: Icon(Icons.arrow_forward_ios)),
                             ],
                           ),

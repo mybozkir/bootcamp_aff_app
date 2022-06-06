@@ -1,4 +1,3 @@
-import 'package:bootcamp_aff_app/login.dart';
 import 'package:bootcamp_aff_app/pages/main_page_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
@@ -65,16 +64,16 @@ class _OnboardingState extends State<Onboarding> {
                       SvgPicture.asset(onboardingContents[index].image,height: 300,),
                       Text(
                         onboardingContents[index].title,
-                        style: TextStyle(
+                        textAlign: TextAlign.center,
+                        style: GoogleFonts.righteous(
                           fontSize: 35,
-                          fontWeight: FontWeight.bold,
-                        ),
+                        )
                       ),
                       SizedBox(height: 20,),
                       Text(
                         onboardingContents[index].description,
                         textAlign: TextAlign.center,
-                        style: TextStyle(
+                        style: GoogleFonts.righteous(
                           fontSize: 14,
                           color: Colors.grey,
                         ),
@@ -98,11 +97,13 @@ class _OnboardingState extends State<Onboarding> {
             color: Colors.transparent,
             child: TextButton(
               child: Text(
-                  currentIndex == onboardingContents.length - 1 ? 'Basla !' :  'Sonraki',
-                style: GoogleFonts.contrailOne(),
+                  currentIndex == onboardingContents.length - 1 ? 'Başla !' :  'Sonraki',
+                style: GoogleFonts.righteous(),
               ),
-              onPressed: () {
+              onPressed: () async {
                 if(currentIndex == onboardingContents.length - 1){
+                  final prefs = await SharedPreferences.getInstance();
+                  await prefs.setBool('onBoarding', false);
                   Navigator.of(context).pushReplacement(
                     MaterialPageRoute(builder: (context) => MainPageWidget()),
                   );
@@ -135,4 +136,3 @@ class _OnboardingState extends State<Onboarding> {
             );
   }
 }
-

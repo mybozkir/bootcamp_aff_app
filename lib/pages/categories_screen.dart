@@ -1,6 +1,7 @@
 import 'package:bootcamp_aff_app/models/categories_model.dart';
 import 'package:bootcamp_aff_app/utility/categories_utility.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 
 class CategoryScreen extends StatelessWidget {
@@ -84,7 +85,7 @@ class CategoryScreen extends StatelessWidget {
                                       SizedBox(width: 10,),
                                       Text(
                                         categories[index].name,
-                                        style: TextStyle(
+                                        style: GoogleFonts.righteous(
                                           color: Colors.white,
                                           fontSize: 20,
                                         ),

@@ -56,7 +56,7 @@ class SevenChakrasCategoryutility{
           routePage: _SevenChakrasCategoryRoutePages.third_eye_chakra_screen
       ),
       SevenChakrasCategory(
-          name: 'Bogaz Çakrası',
+          name: 'Boğaz Çakrası',
           color: _ColorItems.throatChakraEyeChakraColor,
           imageName: 'throat_chakra_logo',
           icon: Icon(IcoFontIcons.briefcase2),

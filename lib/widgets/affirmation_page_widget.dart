@@ -81,7 +81,7 @@ class AffirmationPageWidget extends StatelessWidget {
                     padding: EdgeInsets.only(right: 50, left: 50, top: 90),
                     child: Text(
                       affirmationList[index],
-                      style: GoogleFonts.contrailOne(
+                      style: GoogleFonts.righteous(
                           color: Colors.white,
                           fontStyle: FontStyle.italic,
                           fontWeight: FontWeight.w700,

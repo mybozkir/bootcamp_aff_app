@@ -1,9 +1,15 @@
 
+import 'package:bootcamp_aff_app/pages/main_page_widget.dart';
 import 'package:bootcamp_aff_app/pages/onboarding_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
+bool show = true;
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final prefs = await SharedPreferences.getInstance();
+  show = await prefs.getBool('onBoarding') ?? true;
   runApp(const MyApp());
 }
 
@@ -16,9 +22,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.purple,
       ),
-      home: Onboarding(),
+      home: show ? Onboarding() : MainPageWidget(),
     );
   }
 }
