@@ -100,3 +100,33 @@ Open Mind
 * Son Sprint içinde ekip üyelerinin olabildiğince sık iletişimde olmaya çaba göstermesi ve kalan işlerin hızlı bir şekilde bitirilmesi konusunda mutabık kalındı.
 * Son sprint içerisinde ekran tasarımlarının kodlanmasını yanı sıra ses ve görsel dosyalarının da hızlı bir şekilde son haline ulaştırılarak verinin eksiksiz verilmesi konusunda mutabık kalındı.
 * İlk versiyonlarında olan ekran tasarımları da ortak bir kararla son haline ulaştırılacak şekilde düzenlenecektir.
+
+## Sprint 3
+#### Sprint Notları: 
+* Son Sprint içerisinde tasarım ağırlıklı olarak çalışıldı. Görseller, renk kodları vb. gibi tasarım unsurları netleştirilerek uygulama dizayn konusunda son haline ulaştırıldı. 
+
+* Daily Scrum toplantılarının ekip üyelerinin yoğun programlarından ötürü, ekip asistanına danışılarak 3 günde bir yapılmasına karar verilmiştir. Daily Scrum toplantıları Slack üstünden yapılmakta ve daily scrum notları linkte iletilen drive dosyasında toplanmaktadır.[Daily Scrum Notları](https://docs.google.com/document/d/1tDGQrZBEeHu6yRTfHdTiCbPkyvRZkLBD/edit?usp=sharing&ouid=104325039060781909131&rtpof=true&sd=true)
+
+* Sprint Board Update
+#### Sprint 3 Board Update
+![Sprint 3 Board Update](https://user-images.githubusercontent.com/98096192/169880779-49d08e65-28cd-479c-88bc-c67fdea464fc.png)
+
+#### Ürün Ekran Görüntüleri
+
+
+![categories](https://user-images.githubusercontent.com/98096192/172224925-80746ca9-2e2c-4ffc-bd01-44da45c02e1d.png)
+![mainpage](https://user-images.githubusercontent.com/98096192/172224960-0489ed91-edae-43f3-9834-83b92e1c9b6c.png)
+![onboarding1](https://user-images.githubusercontent.com/98096192/172224977-4aa70c35-d717-4646-8b06-a688df38be5a.png)
+![onboarding2](https://user-images.githubusercontent.com/98096192/172224983-00af5506-5ee4-4813-96eb-5b164ae30295.png)
+![onboarding3](https://user-images.githubusercontent.com/98096192/172224991-814ec30c-982f-4341-bea2-cf11a7f76dd2.png)
+![root_chakra](https://user-images.githubusercontent.com/98096192/172225001-73dcfe5d-f98d-48a1-81aa-881aaf79937d.png)
+![seven_chakras](https://user-images.githubusercontent.com/98096192/172225013-8e1f688c-1737-4095-b8cb-14fb1e4bedda.png)
+![success_n_career](https://user-images.githubusercontent.com/98096192/172225026-cc7523bd-4e40-4264-bb27-9a28aab8bfbf.png)
+
+#### Review Notları
+* Proje başlangıcında belirlenen hedeflere ulaşılamadı. Ekip üyelerinin farklı sebeplerden dolayı oluşan yoğunlukları ve çıkan aksaklıklar sebebiyle zaman ve iş yükü dengesi net olarak sağlanamadı. Son durumda üründen bazı özellikler çıkarılarak en basit haliyle tamamlanmasına ve tasarım olarak tatmin edici düzeyde olmasına karar verildi. Planlamadan bağımsız olarak tasarım odaklı değişikliklere odaklanılarak ürün son haline ulaştırıldı. 
+
+#### Retrospective Notları
+* Başlangıçta hedeflenen özelliklerin projeye eklenememesi ekip içinde hayal kırıklığı oluştursa da, kazanılan deneyim ve en basit haliyle ortaya çıkan tasarım hepimizi mutlu etti.
+* Kişilerin okul ve özel hayat gibi farklı türden yoğunlukları olmasından ötürü gerekli eksiklikler kapatılamadı ve istenilen özellikler oluşturulamadı.
+* Toparlamak gerekirse; tüm ekip üyelerinin ilk defa deneyimlediği bir süreçte, mobil uygulama geliştirme sürecinde yaşanabilecek tüm senaryoların birinci gözden değerlendirilmiş olması, sonuç itibariyle basit de olsa çalışan ve tasarımsal olarak tatmin edici bir uygulama ortaya koyulabilmiş olması tüm ekip üyelerini mutlu ederek geleceğe dair güvenle bakmalarını sağladı.
